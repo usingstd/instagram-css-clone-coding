@@ -11,13 +11,17 @@
     width: 33.3%;
 }
 
+.insta__status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.insta__status-bar__column i{
+    padding-right: 30px;
+}
+
 .insta__status-bar__logo{
     width: 100px;
     height: 50px;
-}
-
-.insta__status-bar__icon{
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-around;
 }
