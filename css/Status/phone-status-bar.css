@@ -1,0 +1,26 @@
+.phone__status-bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+}
+
+.phone__status-bar__column{
+    width: 33.3%;
+    padding: 0 var(--bezel);
+}
+
+
+.phone__status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone__status-bar__column i{
+    padding: 5px;
+}
+
+.phone__status-bar h4{
+    margin: 0;
+}

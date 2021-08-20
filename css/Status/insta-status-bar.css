@@ -1,0 +1,23 @@
+.insta__status-bar{
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.insta__status-bar__column{
+    width: 33.3%;
+}
+
+.insta__status-bar__logo{
+    width: 100px;
+    height: 50px;
+}
+
+.insta__status-bar__icon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
