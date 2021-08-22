@@ -1,0 +1,13 @@
+.bottom__status-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background-color: var(--backcolor);
+}
+
+.bottom__status-bar__icon{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,10 +1,11 @@
 .insta__status-bar{
     position: fixed;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: var(--backcolor);
 }
 
 .insta__status-bar__column{
@@ -24,4 +25,5 @@
 .insta__status-bar__logo{
     width: 100px;
     height: 50px;
+    padding-left: var(--bezel);
 }

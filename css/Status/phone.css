@@ -4,11 +4,11 @@
     justify-content: space-between;
     width: 100%;
     font-weight: 600;
+    background-color: var(--backcolor);
 }
 
 .phone__status-bar__column{
     width: 33.3%;
-    padding: 0 var(--bezel);
 }
 
 
@@ -22,5 +22,5 @@
 }
 
 .phone__status-bar h4{
-    margin: 0;
+    margin: 5px var(--bezel);
 }
