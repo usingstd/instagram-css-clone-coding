@@ -5,6 +5,7 @@
     margin: 0;
     padding: 10px 0;
     background-color: var(--backcolor);
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 .bottom__status-bar__icon{
